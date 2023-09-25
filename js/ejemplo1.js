@@ -13,11 +13,11 @@ var nombres=[];
 var NUMERO_NOMBRES=10;
 
 var lista = "";
-for (int i = 0 ; i<10 ; i++) {
+for (var i = 0 ; i<10 ; i++) {
     nombres[i] = prompt("mete nombre");
-    lista+= nombres[i];
+    lista+= nombres[i] + " ";
 }
-console.warm(lista);
+console.warn(lista);
 
 
 /* AVISOS (WARNING) */
